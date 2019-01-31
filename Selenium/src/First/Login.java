@@ -3,6 +3,7 @@ package First;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.Select;
 
 
@@ -10,8 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 public class Login {
 public static void main(String[] args) throws InterruptedException
 {
-	System.setProperty("webdriver.chrome.driver", "/Users/androiduser/Documents/selenium-java-3.141.59/chromedriver");
-	WebDriver driver= new ChromeDriver();
+//	WebDriver driver= new ChromeDriver();
+	WebDriver driver= new SafariDriver();
 	driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials");
 	driver.findElement(By.xpath("//input[@name='txtUsername']")).sendKeys("Admin");
 	

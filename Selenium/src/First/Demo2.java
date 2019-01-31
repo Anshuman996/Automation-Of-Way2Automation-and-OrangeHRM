@@ -7,6 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 
 public class Demo2 {
@@ -14,8 +15,8 @@ public class Demo2 {
 
 	public static void main(String[] args) throws InterruptedException
 	{
-	System.setProperty("webdriver.chrome.driver", "/Users/androiduser/Documents/selenium-java-3.141.59/chromedriver");
-	WebDriver driver= new ChromeDriver();
+	
+	WebDriver driver= new SafariDriver();
 	driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"); 
 //	driver.manage().window().maximize();
 ////	System.out.println(driver.getCurrentUrl());
