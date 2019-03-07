@@ -1,27 +1,23 @@
 package com.testhike;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
 
 
 public class Conversation extends Hike {
-	
 	@Test
-public void convo() {
-//		driver.findElement(By.className("android.widget.FrameLayout"))
-//		  .click();
-		List<MobileElement> elementsTwo =driver.findElementsByClassName("android.widget.FrameLayout");
-		System.out.println(elementsTwo.size());
-		elementsTwo.get(0).click();
-
-		
-//		new TouchAction(driver).tap(point(221, 344)).perform();
-
-//		driver.findElement(By.id("com.bsb.hike:id/msg_compose")).sendKeys("Hii");
-//		driver.findElement(By.id("com.bsb.hike:id/attachment_view")).click();
-	}
-
+	public void tap(){
+//		driver.findElement(By.xpath("//android.widget.FrameLayout[@index=‘1’]")).click();
+		List element = driver.findElements(By.className("android.widget.FrameLayout"));
+		((WebElement) element.get(1)).click();
+}
 }

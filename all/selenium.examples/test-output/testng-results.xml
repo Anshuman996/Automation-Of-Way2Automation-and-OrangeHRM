@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-06T11:12:06Z" name="Default suite" finished-at="2019-02-06T11:12:32Z" duration-ms="26281">
+    <groups>
+    </groups>
+    <test started-at="2019-02-06T11:12:06Z" name="Default test" finished-at="2019-02-06T11:12:32Z" duration-ms="26281">
+      <class name="seleniumtest.WidgetAutocomplete">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:seleniumtest.WidgetAutocomplete@2d2ffcb7]" started-at="2019-02-06T11:12:06Z" name="beforeMethod" finished-at="2019-02-06T11:12:14Z" duration-ms="8651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AccordionDef()[pri:1, instance:seleniumtest.WidgetAutocomplete@2d2ffcb7]" started-at="2019-02-06T11:12:14Z" name="AccordionDef" finished-at="2019-02-06T11:12:32Z" duration-ms="17569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccordionDef -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:seleniumtest.WidgetAutocomplete@2d2ffcb7]" started-at="2019-02-06T11:12:32Z" name="afterMethod" finished-at="2019-02-06T11:12:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.WidgetAutocomplete -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

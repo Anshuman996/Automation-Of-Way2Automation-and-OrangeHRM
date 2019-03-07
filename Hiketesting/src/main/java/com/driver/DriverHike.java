@@ -44,11 +44,7 @@ public class DriverHike {
 	
 	}
 	
-//	@Test
-//	public void hike_login() {
-//		driver.findElement(By.id("com.sec.android.app.launcher:id/iconview_titleView")).click();
-////		driver.findElement(By.id("com.flipkart.android:id/mobileNo")).click();
-//				
+
 	}
 
 

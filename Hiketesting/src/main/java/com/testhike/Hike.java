@@ -1,11 +1,16 @@
 package com.testhike;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import com.driver.DriverHike;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
 
 public class Hike extends DriverHike {
 
@@ -23,5 +28,7 @@ public class Hike extends DriverHike {
 		driver.findElement(By.id("com.bsb.hike:id/menu_skip")).click();
 		driver.findElement(By.id("com.bsb.hike:id/btn_positive")).click();
 		driver.findElement(By.id("com.bsb.hike:id/btn_positive")).click();
-}
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	}
+		
 }

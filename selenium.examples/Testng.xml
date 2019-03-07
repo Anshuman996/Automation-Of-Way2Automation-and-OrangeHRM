@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite1">
+<test name="testngTest1">
+<classes>
+
+<class name="seleniumtest.Slider" />
+<class name="seleniumtest.Tab" />
+<class name="seleniumtest.ToolsTips" />
+<class name="seleniumtest.WidgetAutocomplete" />
+<class name="seleniumtest.Resizable" />
+<class name="seleniumtest.Selectable" />
+<class name="seleniumtest.Sortable" />
+<class name="seleniumtest.Window" />
+<class name="seleniumtest.WidgetAccordion" />
+</classes>
+</test>
+
+
+<test name="testngTest2">
+<classes>
+<class name="seleniumtest1.DropDown" />
+<class name="seleniumtest1.Dynamic" />
+<class name="seleniumtest1.Menu" />
+<class name="seleniumtest1.Registration" />
+<class name="seleniumtest1.DatePicker" />
+<class name="seleniumtest1.Alert" />
+<class name="seleniumtest1.Draggable" />
+<class name="seleniumtest1.Droppeble" />
+
+</classes>
+</test>
+</suite>

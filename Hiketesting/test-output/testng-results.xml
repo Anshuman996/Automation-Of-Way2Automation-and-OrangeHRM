@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92689" started-at="2019-02-22T07:19:51Z" finished-at="2019-02-22T07:21:24Z">
+  <suite name="Test-Suite" duration-ms="93331" started-at="2019-02-25T12:30:55Z" finished-at="2019-02-25T12:32:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92689" started-at="2019-02-22T07:19:51Z" finished-at="2019-02-22T07:21:24Z">
+    <test name="Default test" duration-ms="93331" started-at="2019-02-25T12:30:55Z" finished-at="2019-02-25T12:32:28Z">
       <class name="com.testhike.Conversation">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testhike.Conversation@5bcab519]" name="setUp" is-config="true" duration-ms="14152" started-at="2019-02-22T07:19:52Z" finished-at="2019-02-22T07:20:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testhike.Conversation@72d818d1]" name="setUp" is-config="true" duration-ms="21584" started-at="2019-02-25T12:30:55Z" finished-at="2019-02-25T12:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="convo()[pri:0, instance:com.testhike.Conversation@5bcab519]" name="convo" duration-ms="3402" started-at="2019-02-22T07:20:06Z" finished-at="2019-02-22T07:20:09Z">
+        <test-method status="PASS" signature="tap()[pri:0, instance:com.testhike.Conversation@72d818d1]" name="tap" duration-ms="3868" started-at="2019-02-25T12:31:16Z" finished-at="2019-02-25T12:31:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- convo -->
-        <test-method status="PASS" signature="hike_login()[pri:0, instance:com.testhike.Conversation@5bcab519]" name="hike_login" duration-ms="75074" started-at="2019-02-22T07:20:09Z" finished-at="2019-02-22T07:21:24Z">
+        </test-method> <!-- tap -->
+        <test-method status="PASS" signature="hike_login()[pri:0, instance:com.testhike.Conversation@72d818d1]" name="hike_login" duration-ms="67845" started-at="2019-02-25T12:31:20Z" finished-at="2019-02-25T12:32:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hike_login -->
       </class> <!-- com.testhike.Conversation -->
     </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- Test-Suite -->
 </testng-results>

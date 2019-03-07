@@ -17,7 +17,9 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.offset.PointOption;
 
 public class Login {
 
@@ -64,12 +66,17 @@ public class Login {
 			}
 		
 		
-		driver.findElement(By.id("com.flipkart.android:id/mobileNo")).sendKeys("bokkatable.test@gmail.com");
+		driver.findElement(By.id("com.flipkart.android:id/mobileNo")).sendKeys("9040808413");
 		driver.findElement(By.id("com.flipkart.android:id/et_password")).clear();
 				
-		driver.findElement(By.id("com.flipkart.android:id/et_password")).sendKeys("abcd");
+		driver.findElement(By.id("com.flipkart.android:id/et_password")).sendKeys("Nitin@1996");
 				
 		driver.findElement(By.id("com.flipkart.android:id/btn_mlogin")).click();
+	}
+	@Test
+	public void tap() {
+		TouchAction touchAction = new TouchAction(driver);
+		touchAction.tap(new PointOption().withCoordinates(143, 795)).perform();
 	}
 	
 	/**
@@ -87,6 +94,7 @@ public class Login {
 		Login login = new Login();
 		login.setUp();
 		login.verify_LoginToFlipKart();
+		login.tap();
 //		login.tearDown();
 	}
 }

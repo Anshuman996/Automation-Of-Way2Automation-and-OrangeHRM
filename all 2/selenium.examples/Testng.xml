@@ -1,0 +1,11 @@
+<suite name="Test-Suite">
+<test name="testngTest">
+<classes>
+<class name="seleniumtest.Registration" />
+<class name="seleniumtest.Alert" />
+<class name="seleniumtest.Dynamic" />
+<class name="seleniumtest.DropDown" />
+<class name="seleniumtest.Windows" />
+</classes>
+</test>
+</suite>

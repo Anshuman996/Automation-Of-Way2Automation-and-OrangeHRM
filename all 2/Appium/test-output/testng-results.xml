@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite TestNg Demo" duration-ms="33118" started-at="2019-02-15T09:31:45Z" finished-at="2019-02-15T09:32:18Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="33118" started-at="2019-02-15T09:31:45Z" finished-at="2019-02-15T09:32:18Z">
+      <class name="Basic.LoginWithParameter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Basic.LoginWithParameter@5034c75a]" name="setUp" is-config="true" duration-ms="26046" started-at="2019-02-15T15:01:45Z" finished-at="2019-02-15T15:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verify_LoginToFlipKart(java.lang.String, java.lang.String)[pri:0, instance:Basic.LoginWithParameter@5034c75a]" name="verify_LoginToFlipKart" duration-ms="7047" started-at="2019-02-15T15:02:11Z" description="This method verify login to flipkart" finished-at="2019-02-15T15:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'
+System info: host: 'din16004174.corp.capgemini.com', ip: 'fe80:0:0:0:8d3:e85a:f13e:e826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.flipkart.android.activi..., appPackage: com.flipkart.android, databaseEnabled: false, desired: {appActivity: com.flipkart.android.activi..., appPackage: com.flipkart.android, deviceName: Samsung Galaxy on8, device_id: j8y18lte, newCommandTimeout: 12000, os_version: 8.0.0, platformName: android}, deviceManufacturer: samsung, deviceModel: SM-J810GF, deviceName: d7d3689f, deviceScreenSize: 720x1480, deviceUDID: d7d3689f, device_id: j8y18lte, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 12000, os_version: 8.0.0, platform: LINUX, platformName: Android, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 32c4aecc-e1b2-4cbe-9b2b-33f6aa5a7d6d
+*** Element info: {Using=id, value=com.google.android.gms:id/cancel}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'
+System info: host: 'din16004174.corp.capgemini.com', ip: 'fe80:0:0:0:8d3:e85a:f13e:e826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.flipkart.android.activi..., appPackage: com.flipkart.android, databaseEnabled: false, desired: {appActivity: com.flipkart.android.activi..., appPackage: com.flipkart.android, deviceName: Samsung Galaxy on8, device_id: j8y18lte, newCommandTimeout: 12000, os_version: 8.0.0, platformName: android}, deviceManufacturer: samsung, deviceModel: SM-J810GF, deviceName: d7d3689f, deviceScreenSize: 720x1480, deviceUDID: d7d3689f, device_id: j8y18lte, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 12000, os_version: 8.0.0, platform: LINUX, platformName: Android, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 32c4aecc-e1b2-4cbe-9b2b-33f6aa5a7d6d
+*** Element info: {Using=id, value=com.google.android.gms:id/cancel}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Basic.LoginWithParameter.verify_LoginToFlipKart(LoginWithParameter.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginToFlipKart -->
+      </class> <!-- Basic.LoginWithParameter -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite TestNg Demo -->
+</testng-results>

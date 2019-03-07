@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-Suite1" duration-ms="201089" started-at="2019-02-28T14:17:38Z" finished-at="2019-02-28T14:20:59Z">
+    <groups>
+    </groups>
+    <test name="testngTest1" duration-ms="175183" started-at="2019-02-28T14:17:38Z" finished-at="2019-02-28T14:20:33Z">
+      <class name="seleniumtest.Resizable">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Resizable@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4523" started-at="2019-02-28T14:18:29Z" finished-at="2019-02-28T14:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deffunctionality()[pri:1, instance:seleniumtest.Resizable@4b9e13df]" name="deffunctionality" duration-ms="7591" started-at="2019-02-28T14:18:34Z" finished-at="2019-02-28T14:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deffunctionality -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Resizable@4b9e13df]" name="afterMethod" is-config="true" duration-ms="109" started-at="2019-02-28T14:18:41Z" finished-at="2019-02-28T14:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Resizable@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="4012" started-at="2019-02-28T14:20:02Z" finished-at="2019-02-28T14:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="animate()[pri:2, instance:seleniumtest.Resizable@4b9e13df]" name="animate" duration-ms="7421" started-at="2019-02-28T14:20:06Z" finished-at="2019-02-28T14:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- animate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Resizable@4b9e13df]" name="afterMethod" is-config="true" duration-ms="172" started-at="2019-02-28T14:20:13Z" finished-at="2019-02-28T14:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.Resizable -->
+      <class name="seleniumtest.WidgetAccordion">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.WidgetAccordion@26be92ad]" name="beforeMethod" is-config="true" duration-ms="4350" started-at="2019-02-28T14:19:17Z" finished-at="2019-02-28T14:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AccordionDef()[pri:1, instance:seleniumtest.WidgetAccordion@26be92ad]" name="AccordionDef" duration-ms="8638" started-at="2019-02-28T14:19:21Z" finished-at="2019-02-28T14:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccordionDef -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.WidgetAccordion@26be92ad]" name="afterMethod" is-config="true" duration-ms="121" started-at="2019-02-28T14:19:30Z" finished-at="2019-02-28T14:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.WidgetAccordion -->
+      <class name="seleniumtest.Tab">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Tab@8bd1b6a]" name="beforeMethod" is-config="true" duration-ms="3961" started-at="2019-02-28T14:17:51Z" finished-at="2019-02-28T14:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="slide()[pri:0, instance:seleniumtest.Tab@8bd1b6a]" name="slide" duration-ms="7735" started-at="2019-02-28T14:17:55Z" finished-at="2019-02-28T14:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slide -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Tab@8bd1b6a]" name="afterMethod" is-config="true" duration-ms="190" started-at="2019-02-28T14:18:03Z" finished-at="2019-02-28T14:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.Tab -->
+      <class name="seleniumtest.ToolsTips">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.ToolsTips@18be83e4]" name="beforeMethod" is-config="true" duration-ms="4023" started-at="2019-02-28T14:18:03Z" finished-at="2019-02-28T14:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Fun()[pri:1, instance:seleniumtest.ToolsTips@18be83e4]" name="Fun" duration-ms="7057" started-at="2019-02-28T14:18:07Z" finished-at="2019-02-28T14:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fun -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.ToolsTips@18be83e4]" name="afterMethod" is-config="true" duration-ms="105" started-at="2019-02-28T14:18:14Z" finished-at="2019-02-28T14:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.ToolsTips@18be83e4]" name="beforeMethod" is-config="true" duration-ms="4200" started-at="2019-02-28T14:19:30Z" finished-at="2019-02-28T14:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Custom()[pri:2, instance:seleniumtest.ToolsTips@18be83e4]" name="Custom" duration-ms="7296" started-at="2019-02-28T14:19:34Z" finished-at="2019-02-28T14:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Custom -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.ToolsTips@18be83e4]" name="afterMethod" is-config="true" duration-ms="138" started-at="2019-02-28T14:19:41Z" finished-at="2019-02-28T14:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.ToolsTips -->
+      <class name="seleniumtest.Slider">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Slider@55f3ddb1]" name="beforeMethod" is-config="true" duration-ms="5258" started-at="2019-02-28T14:17:38Z" finished-at="2019-02-28T14:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="slide()[pri:0, instance:seleniumtest.Slider@55f3ddb1]" name="slide" duration-ms="8087" started-at="2019-02-28T14:17:43Z" finished-at="2019-02-28T14:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slide -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Slider@55f3ddb1]" name="afterMethod" is-config="true" duration-ms="142" started-at="2019-02-28T14:17:51Z" finished-at="2019-02-28T14:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.Slider -->
+      <class name="seleniumtest.WidgetAutocomplete">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.WidgetAutocomplete@cb5822]" name="beforeMethod" is-config="true" duration-ms="4630" started-at="2019-02-28T14:18:14Z" finished-at="2019-02-28T14:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AccordionDef()[pri:1, instance:seleniumtest.WidgetAutocomplete@cb5822]" name="AccordionDef" duration-ms="10315" started-at="2019-02-28T14:18:19Z" finished-at="2019-02-28T14:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccordionDef -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.WidgetAutocomplete@cb5822]" name="afterMethod" is-config="true" duration-ms="102" started-at="2019-02-28T14:18:29Z" finished-at="2019-02-28T14:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.WidgetAutocomplete@cb5822]" name="beforeMethod" is-config="true" duration-ms="3858" started-at="2019-02-28T14:19:41Z" finished-at="2019-02-28T14:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Multiple()[pri:2, instance:seleniumtest.WidgetAutocomplete@cb5822]" name="Multiple" duration-ms="16614" started-at="2019-02-28T14:19:45Z" finished-at="2019-02-28T14:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multiple -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.WidgetAutocomplete@cb5822]" name="afterMethod" is-config="true" duration-ms="105" started-at="2019-02-28T14:20:02Z" finished-at="2019-02-28T14:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.WidgetAutocomplete -->
+      <class name="seleniumtest.Selectable">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Selectable@2b98378d]" name="beforeMethod" is-config="true" duration-ms="3883" started-at="2019-02-28T14:18:41Z" finished-at="2019-02-28T14:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deffunctionality()[pri:1, instance:seleniumtest.Selectable@2b98378d]" name="deffunctionality" duration-ms="7166" started-at="2019-02-28T14:18:45Z" finished-at="2019-02-28T14:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deffunctionality -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Selectable@2b98378d]" name="afterMethod" is-config="true" duration-ms="101" started-at="2019-02-28T14:18:53Z" finished-at="2019-02-28T14:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Selectable@2b98378d]" name="beforeMethod" is-config="true" duration-ms="12074" started-at="2019-02-28T14:20:14Z" finished-at="2019-02-28T14:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="grid()[pri:2, instance:seleniumtest.Selectable@2b98378d]" name="grid" duration-ms="7084" started-at="2019-02-28T14:20:26Z" finished-at="2019-02-28T14:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Selectable@2b98378d]" name="afterMethod" is-config="true" duration-ms="107" started-at="2019-02-28T14:20:33Z" finished-at="2019-02-28T14:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.Selectable -->
+      <class name="seleniumtest.Window">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Window@1d057a39]" name="beforeMethod" is-config="true" duration-ms="4726" started-at="2019-02-28T14:19:05Z" finished-at="2019-02-28T14:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="New()[pri:1, instance:seleniumtest.Window@1d057a39]" name="New" duration-ms="7237" started-at="2019-02-28T14:19:09Z" finished-at="2019-02-28T14:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Window@1d057a39]" name="afterMethod" is-config="true" duration-ms="97" started-at="2019-02-28T14:19:16Z" finished-at="2019-02-28T14:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.Window -->
+      <class name="seleniumtest.Sortable">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest.Sortable@475530b9]" name="beforeMethod" is-config="true" duration-ms="4686" started-at="2019-02-28T14:18:53Z" finished-at="2019-02-28T14:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deffunctionality()[pri:1, instance:seleniumtest.Sortable@475530b9]" name="deffunctionality" duration-ms="7104" started-at="2019-02-28T14:18:57Z" finished-at="2019-02-28T14:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deffunctionality -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest.Sortable@475530b9]" name="afterMethod" is-config="true" duration-ms="96" started-at="2019-02-28T14:19:04Z" finished-at="2019-02-28T14:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest.Sortable -->
+    </test> <!-- testngTest1 -->
+    <test name="testngTest2" duration-ms="25849" started-at="2019-02-28T14:20:33Z" finished-at="2019-02-28T14:20:59Z">
+      <class name="seleniumtest1.Registration">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest1.Registration@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="6601" started-at="2019-02-28T14:20:33Z" finished-at="2019-02-28T14:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:seleniumtest1.Registration@77cd7a0]" name="login" duration-ms="7458" started-at="2019-02-28T14:20:39Z" finished-at="2019-02-28T14:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest1.Registration@77cd7a0]" name="afterMethod" is-config="true" duration-ms="136" started-at="2019-02-28T14:20:47Z" finished-at="2019-02-28T14:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest1.Registration -->
+      <class name="seleniumtest1.Dynamic">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumtest1.Dynamic@1a968a59]" name="beforeMethod" is-config="true" duration-ms="4400" started-at="2019-02-28T14:20:47Z" finished-at="2019-02-28T14:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Dynamic()[pri:1, instance:seleniumtest1.Dynamic@1a968a59]" name="Dynamic" duration-ms="7146" started-at="2019-02-28T14:20:51Z" finished-at="2019-02-28T14:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dynamic -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumtest1.Dynamic@1a968a59]" name="afterMethod" is-config="true" duration-ms="101" started-at="2019-02-28T14:20:59Z" finished-at="2019-02-28T14:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- seleniumtest1.Dynamic -->
+    </test> <!-- testngTest2 -->
+  </suite> <!-- Test-Suite1 -->
+</testng-results>
